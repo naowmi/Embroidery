@@ -7,11 +7,12 @@ export default defineConfig({
   define: {
     global: {},
   },
+  root: "./src",
   build: {
     rollupOptions: {
       input: glob.sync('./src/*.html'),
     },
-    outDir: 'dist',
+    outDir: '../dist',
     emptyOutDir: true,
   },
   plugins: [injectHTML(), FullReload(['./src/**/*.html'])],
