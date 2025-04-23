@@ -22,19 +22,19 @@
   color: var(--white);
   max-width: 280px;
   max-height: 61px;
-  gap: 25px 40px;
+  gap: 25px 20px;
   margin-bottom: 40px;
 }
 
 .footer-item {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.28;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-item:hover,
-.footer-item:focus {
+.footer-focus:hover,
+.footer-focus:focus {
   color: var(--yellow);
 }
 .footer-item:last-child {
@@ -80,6 +80,9 @@
     gap: 0 25px;
     margin-bottom: 80px;
   }
+  .footer-item {
+    font-size: 12px;
+  }
   .footer-text {
     max-width: 521px;
     font-size: 54px;
@@ -110,6 +113,9 @@
   }
   .footer-list {
     margin-bottom: 117px;
+  }
+  .footer-item {
+    font-size: 14px;
   }
   .footer-text {
     max-width: 754px;

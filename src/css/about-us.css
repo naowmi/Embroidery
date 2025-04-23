@@ -42,10 +42,9 @@
 }
 
 .about-us-text {
-  color: rgba(252, 249, 249, 0.4);
+  color: rgba(252, 249, 249, 0.7);
   font-size: 14px;
   line-height: normal;
-  letter-spacing: -0.04em;
 }
 
 .about-us-img {
@@ -86,7 +85,7 @@
   }
 
   .about-us-text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -117,7 +116,7 @@
     margin-top: 100px;
   }
   .about-us-text-wrap {
-    max-width: 436px;
+    max-width: 536px;
   }
 
   .about-us-img-wrap {

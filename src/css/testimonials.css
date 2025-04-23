@@ -65,7 +65,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
-  color: rgba(252, 249, 249, 0.4);
+  color: rgba(252, 249, 249, 0.7);
 }
 
 @media screen and (min-width: 768px) {
@@ -101,7 +101,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
-    color: rgba(252, 249, 249, 0.4);
+    color: rgba(252, 249, 249, 0.7);
   }
 
   .testimonials-list {

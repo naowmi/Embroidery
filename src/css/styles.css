@@ -13,6 +13,7 @@
 @import url('./your-order.css');
 @import url('./testimonials.css');
 @import url('./footer.css');
+@import url('./accessibility.css');
 
 :root {
   font-family: 'Manrope', sans-serif;
