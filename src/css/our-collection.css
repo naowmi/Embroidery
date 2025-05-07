@@ -58,6 +58,22 @@
   line-height: 1;
   letter-spacing: 0.05em;
 }
+.order-button {
+  color: var(--white);
+  background-color: transparent;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  padding: 14px 36px;
+  border-radius: 15px;
+  margin-top: 20px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  transition: border-color 250ms linear;
+}
+.order-button:hover,
+.order-button:focus {
+  border-color: var(--yellow);
+}
 
 /* MOBILE */
 
@@ -135,8 +151,8 @@
   }
   .container-our-collection {
     min-width: 1080px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .collection-back-image {
     background-size: 169px 300px;
